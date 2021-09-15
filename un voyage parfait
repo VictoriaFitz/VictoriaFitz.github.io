@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Projet dérivé de "Défi : un voyage parfait"</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>The perfect trip</h1>
+        
+        <p>I would see scenes like...</p>
+        <ul> 
+        
+        <li>Concerts and music festivals
+        <li>Sports games (NHL or MLB)
+        <li>World Wonders
+        <li>Nature
+        <li>Historical scenes</li>
+        
+     
+        </ul>
+        
+        <p>And animals like...</p>
+        <ul>
+            <li>Monkeys
+            <li>Cows
+            <li>Pigs
+            <li>Donkeys</li>
+        </ul>
+        
+        <p>And eat food like...</p>
+        <ul>
+        <li>Burgers
+        <li>Tacos
+        <li>Fajitas
+        <li>Pasta
+        <li>Ceasar salad</li>
+         
+    </ul>
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-sapling.png" alt="cochon"width="203">
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-sapling.png" alt="cochon"width="203">
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-sapling.png" alt="cochon"width="203">
+    
+    </body>
+</html>
