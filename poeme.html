@@ -1,25 +1,48 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Poème"</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/stylepoeme.css">
-    </head>
-    <body> 
-    <h1> Poème </h1>
-    <p>  
-      <h4 class=poeme>Roses are <span style="color: red">red</span>,<br>
-      Violets are <span style="color:blue">blue</span>, <br>
-      Sugar is sweet,<br>
-      And so are you.<br>
-    </h4>
-    </p> 
-    </body>
-    <!--Ce poème a été pris du site de "Wikipedia". Il a été originalement publié par Victor Hugo.-->
-    <div class="navbar">
-  <a href="https://victoriafitz.github.io""#acceuil" class="active">Acceuil</a>
-  <a href="https://victoriafitz.github.io/biographie.html""#bio">Biographie</a>
-  <a href="https://victoriafitz.github.io/poeme.html""#poeme">Poème</a>
-  <a href="https://victoriafitz.github.io/voyageparfait.html""#voyage">Voyage Parfait</a>
-</div>
-</html>
+body  {
+  background-image: url("http://alana.io/wp-content/uploads/2015/09/friday-evening-june1026-1560x1037.jpg");
+  background-color: #cccccc;
+}
+h1 {
+  font-family: "calibri", serif;
+  text-align: center;
+  background-color: gray;
+  margin:10px;
+  font-size: 45px;
+}
+h4 {
+  font-family:"helvetica";
+  font-size: 16px;
+  margin:10px;
+  line-height:3em;
+  padding:10%;
+  text-align: center;
+}
+/* Place la barre de naviguation fixé au bas de la page. */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style pour les sites dans la barre de naviguation. */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Ajout de coleur lors du hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
