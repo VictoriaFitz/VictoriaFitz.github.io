@@ -1,21 +1,21 @@
-.h1 {
+body  {
+  background-image: url("http://alana.io/wp-content/uploads/2015/09/friday-evening-june1026-1560x1037.jpg");
+  background-color: #cccccc;
+}
+h1 {
   font-family: "calibri", serif;
   text-align: center;
   background-color: gray;
   margin:10px;
   font-size: 45px;
 }
-.h2 {
-  border:orange; 
-  border-width:5px; 
-  border-style:solid;
-  background-color: #FAC898;
-  text-align: center;
-}
-div,h4 {
+h4 {
   font-family:"helvetica";
   font-size: 16px;
   margin:10px;
+  line-height:3em;
+  padding:10%;
+  text-align: center;
 }
 /* Place la barre de naviguation fixé au bas de la page. */
 .navbar {
