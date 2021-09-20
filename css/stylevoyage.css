@@ -1,1 +1,19 @@
-
+.h1 {
+  font-family: "calibri", serif;
+  text-align: center;
+  background-color: gray;
+  margin:10px;
+  font-size: 45px;
+}
+.h2 {
+  border:orange; 
+  border-width:5px; 
+  border-style:solid;
+  background-color: #FAC898;
+  text-align: center;
+}
+div,h4 {
+  font-family:"helvetica";
+  font-size: 16px;
+  margin:10px;
+}
