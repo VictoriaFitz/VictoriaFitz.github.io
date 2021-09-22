@@ -17,6 +17,9 @@ div,h4 {
   font-size: 16px;
   margin:10px;
 }
+.information {
+  font-family: "helvetica"
+}
 /* Place la barre de naviguation fixé au bas de la page. */
 .navbar {
   background-color: #333;
