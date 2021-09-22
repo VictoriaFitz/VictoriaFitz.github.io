@@ -13,12 +13,8 @@
   text-align: center;
 }
 div,h4 {
-  font-family:"helvetica";
-  font-size: 16px;
+font-size: 16px;
   margin:10px;
-}
-.information {
-  font-family: "helvetica";
 }
 /* Place la barre de naviguation fixé au bas de la page. */
 .navbar {
