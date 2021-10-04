@@ -4,14 +4,14 @@ for (var i=1; i<=10; i++) {
  for (var j=1; j<=i; j++) {
    etoiles=etoiles+"*";
  }
- console.log (etoiles)
+ document.write(etoiles);
 }
 for (var i=1; i<=10; i++) {
  etoiles="";
  for (var j=10; j>=i; j--) {
    etoiles=etoiles+"*";
  }
- console.log (etoiles)
+ document.write (etoiles);
 }
 for( var i=1; i<=10; i++) {
   var s=""
@@ -22,7 +22,7 @@ for( var i=1; i<=10; i++) {
  for(var k=10; k>=i; k--) {
  s=s+" "
  }
- console.log(s+etoiles);
+ document.write(s+etoiles);
  }
 for (let i = 1; i <= 10; i++) {
    var asterisques = "";
@@ -33,5 +33,5 @@ for (let i = 1; i <= 10; i++) {
    for (let j = 1; j <= i; j++) {
       asterisques = asterisques + "*";
    }
-   console.log (espaces+asterisques);
+   document.write (espaces+asterisques);
 }
